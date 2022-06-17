@@ -1,10 +1,14 @@
-
 import './App.css';
+import Hero from './components/Hero';
+
 
 function App() {
   return (
     <div className="App">
-     <h1>Header</h1>
+      <Hero />
+     <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
     </div>
   );
 }
