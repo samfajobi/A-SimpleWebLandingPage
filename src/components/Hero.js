@@ -2,7 +2,10 @@
 
 const Hero = () => {
   return (
-   <p className="text-3xl font-bold underline">Hero Section</p>
+      <div>
+           <p className="text-3xl font-bold underline">Order food at cheap price!!! 50% Discount</p>
+      </div>
+  
   )
 }
 
